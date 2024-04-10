@@ -8,7 +8,7 @@ data = pd.read_csv("car_data.csv")
 filters = {
     'Car_Name': '',
     'Transmission': ['Automatic', 'Manual'],
-    'selling_price': [0.0, data['Selling_Price'].max()],
+    'selling_price': [0.0, 20.0],
     'year': [2000, 2024]
 }
 
