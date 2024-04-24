@@ -44,3 +44,4 @@ if filtered_data.empty:
 else:
     # show dataframe onto page
     st.dataframe(filtered_data)
+print("Test")
